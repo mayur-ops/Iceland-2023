@@ -11,3 +11,8 @@ public class RunCukeTest {
 
 }
 
+<<<<<<< HEAD
+=======
+//new branch mayur.feature
+
+>>>>>>> b6df0a847794ff465ae065c5be00e882bdb25677
