@@ -65,6 +65,4 @@ public class Groceries extends DriverFactory {
         checkPostcodeButton.click();
         createAccount.click();
     }
-
-
 }

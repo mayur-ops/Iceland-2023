@@ -53,7 +53,7 @@ public class Registration extends DriverFactory {
 //    WebElement digitalBonusCardBox;
 //    @FindBy(id = "dwfrm_profile_customer_addtoemaillist")
 //    WebElement termsAndCondition;
-    @FindBy(xpath = "")
+    @FindBy(css = ".recaptcha-checkbox-border")
     WebElement robertButton;
     @FindBy(xpath = "//button[@id='sendBtn']")
     WebElement createAccountButton;
@@ -81,8 +81,8 @@ public class Registration extends DriverFactory {
        // digitalBonusCardBox.click();
         //termsAndCondition.click();
         driver.switchTo().frame(1);
-        Thread.sleep(10000);
-        //robertButton.click();
+        Thread.sleep(5000);
+        robertButton.click();   // can't automate capture robert button need to talk with developer for diseable option in test environment.
         createAccountButton.click();
     }
 }
