@@ -6,9 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 //@CucumberOptions (features = "src/test/Resources/IcelandHomePage.feature", tags = "@SearchButton")
-//@CucumberOptions(features = "src/test/Resources/IcelandHomePage.feature", tags = "@GroceriesButton")
+@CucumberOptions(features = "src/test/Resources/IcelandHomePage.feature", tags = "@Login or @GroceriesButton")
 //@CucumberOptions(features = "src/test/Resources/IcelandHomePage.feature", tags = "@Registration")
-@CucumberOptions(features = "src/test/Resources/IcelandHomePage.feature", tags = "@Login")
+//@CucumberOptions(features = "src/test/Resources/IcelandHomePage.feature", tags = "@Login or @SearchButton")
+
 
 public class RunCukeTest {
 
