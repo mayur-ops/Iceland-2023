@@ -11,7 +11,7 @@ Feature: Iceland home page features
     And user give fill up all related details
     Then user click on create an account
 
-  @Login
+  @Login @Regression
   Scenario Outline: Login process
     When user click on the login button
     And user provide email address "<Email>"
